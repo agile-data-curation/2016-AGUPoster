@@ -1,0 +1,125 @@
+%==============================================================================
+%== template for LATEX poster =================================================
+%==============================================================================
+%
+%--A0 beamer slide-------------------------------------------------------------
+\documentclass[final]{beamer}
+\usepackage[orientation=landscape,size=a1,
+            scale=.85         % font scale factor
+           ]{beamerposter}
+%\setlength{\paperwidth}{33.1in}
+%\setlength{\paperheight}{23.4in}
+\setlength{\paperwidth}{60in}
+\setlength{\paperheight}{36in}
+           
+\geometry{
+  hmargin=2.5cm, % little modification of margins
+}
+
+%
+\usepackage[utf8]{inputenc}
+
+\linespread{1.15}
+%
+%==The poster style============================================================
+\usetheme{sharelatex}
+
+%==Title, date and authors of the poster=======================================
+\title
+$if(conference)$[$conference$]$endif$ % Conference
+{ % Poster title
+$title$
+}
+
+\author{ % Authors
+$if(author)$
+$for(author)$
+$author.name$\inst{$author.affiliation-label$}$sep$ \and $endfor$
+$endif$
+}
+
+$if(author)$
+\institute{
+$for(author)$
+\inst{$author.affiliation-label$} $author.affiliation$
+$endfor$
+}
+$endif$
+
+
+\date{$date$}
+
+
+
+\begin{document}
+\begin{frame}[t]
+%==============================================================================
+\begin{multicols}{3}
+
+%--abstract-------------------------------------------------------------
+
+$if(abstract)$
+\subsection{Abstract}
+
+$abstract$
+
+$endif$
+%--End of abstract------------------------------------------------------
+
+
+
+
+%==============================================================================
+%==The poster content==========================================================
+%==============================================================================
+
+$body$
+
+%==============================================================================
+%==End of content==============================================================
+%==============================================================================
+
+%--Acknowledgements-------------------------------------------------------------
+
+$if(acknowledgements)$
+\subsection{Acknowledgements}
+
+$acknowledgements$
+
+$endif$
+%--End of Acknowledgements------------------------------------------------------
+
+
+%--References------------------------------------------------------------------
+
+$if(natbib)$
+$if(biblio-files)$
+$if(biblio-title)$
+$if(book-class)$
+\subsection{References}
+
+\renewcommand\bibname{$biblio-title$}
+$else$
+\subsection{References}
+
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+\bibliography{$biblio-files$}
+
+$endif$
+$endif$
+
+$if(biblatex)$
+\subsection{References}
+
+\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+$endif$
+
+%--End of references-----------------------------------------------------------
+
+\end{multicols}
+
+%==============================================================================
+\end{frame}
+\end{document}
