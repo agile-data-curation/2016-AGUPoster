@@ -1,7 +1,7 @@
 pandoc -s -S \
 --normalize \
 --filter pandoc-citeproc \
---csl ./elsevier-harvard.csl \
+--csl ./science.csl \
 --template=poster.tex \
 -f markdown \
 -o 2016-12_AGUPoster.pdf \
@@ -10,7 +10,7 @@ pandoc -s -S \
 pandoc -s -S \
 --normalize \
 --filter pandoc-citeproc \
---csl ./elsevier-harvard.csl \
+--csl ./science.csl \
 --template=poster.tex \
 -f markdown \
 -o 2016-12_AGUPoster.tex \
