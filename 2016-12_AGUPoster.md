@@ -39,16 +39,16 @@ The challenges that must be addressed by current research data management and cu
 Thus far the focus of the project's work has been on developing a framework within which the team can discuss the concept of *agile data curation* with the community, and iteratively evolving that framework through a series of meeting sessions, workshops and presentations that have been given at multiple venues including AGU (2014, 2015), ESIP Federation Meeting (2016), Research Data Alliance (2014, 2015, 2016), and SciDataCon (2016). In these various activities the team has worked on communicating the conceptual framework for our vision of agile data curation, presented a variety of initial values and principles derived from those defined in the *Manifesto for Agile Software Development* [@beck_manifesto_2001], and solicited the presentation of data management projects that exemplify (either intentionally or unintentionally) these principles. 
  
 
-# Process: Values -> Practice -> Design Patterns
+# Conceptual Model for Agile Data Curation Design Patterns
 
 While this outreach and community engagement work described above is continuing, the work presented here is the starting point for our third goal of adapting the concept of design patterns that had been developed for object oriented software development [@gamma_design_1995], and extended into related domains [@daigneau_service_2011; @lasater_design_2010; @ackerman_patterns-based_2010; @schwinn_design_2005; @hohpe_enterprise_2003], for use in documenting *named* data curation *problems*, *solutions*, and *consequences* that provide *descriptions of generalized data components that are customized to solve a general design problem in a particular context* (adapted from [@gamma_design_1995, section 1.1]). 
  
-![Information flow into developed design patterns.](placeholder.png)
+![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_????] for .](placeholder.png)
 
 
 
 
-# Conceptual Model for Agile Data Curation Design Patterns
+# 
 
 Vivamus efficitur eros et luctus porttitor. Aenean non urna semper, sollicitudin odio sed, ullamcorper augue. Ut malesuada lorem tortor, a posuere urna tempus at. Suspendisse a lorem odio. Integer non metus eu lacus maximus malesuada vel sit amet purus. Maecenas lacinia nisl in justo pretium cursus sed sed mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. [@gamma_design_1995]
  
