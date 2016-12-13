@@ -1,0 +1,110 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ackerman and Gonzalez(2010)]{ackerman_patterns-based_2010}
+L.~Ackerman and C.~Gonzalez.
+\newblock \emph{Patterns-{{Based Engineering}}: {{Successfully Delivering
+  Solutions}} via {{Patterns}}}.
+\newblock {Addison-Wesley Professional}, June 2010.
+\newblock ISBN 978-0-321-66971-1.
+\newblock URL \url{http://my.safaribooksonline.com/9780321669711}.
+
+\bibitem[Beck et~al.(2001)Beck, Beedle, {van Bennekum}, Cockburn, Cunningham,
+  Fowler, Grenning, Highsmith, Hunt, Jeffries, Kern, Marick, Martin, Mellor,
+  Schwaber, Sutherland, and Thomas]{beck_manifesto_2001}
+K.~Beck, M.~Beedle, A.~{van Bennekum}, A.~Cockburn, W.~Cunningham, M.~Fowler,
+  J.~Grenning, J.~Highsmith, A.~Hunt, R.~Jeffries, J.~Kern, B.~Marick, R.~C.
+  Martin, S.~Mellor, K.~Schwaber, J.~Sutherland, and D.~Thomas.
+\newblock Manifesto for {{Agile Software Development}}, 2001.
+\newblock URL \url{http://agilemanifesto.org/}.
+
+\bibitem[{Consultative Committee for Space Data Systems
+  (CCSDS)}(2012)]{book_reference_2012}
+{Consultative Committee for Space Data Systems (CCSDS)}.
+\newblock Reference {{Model}} for an {{Open Archival Information System}}
+  ({{OAIS}}).
+\newblock Technical Report CCSDS 650.0-M-2, Consultative Committee for Space
+  Data Systems (CCSDS), June 2012.
+\newblock URL \url{http://public.ccsds.org/publications/archive/650x0m2.pdf}.
+
+\bibitem[Daigneau(2011)]{daigneau_service_2011}
+R.~Daigneau.
+\newblock \emph{Service {{Design Patterns}}: {{Fundamental Design Solutions}}
+  for {{SOAP}}/{{WSDL}} and {{RESTful Web Services}}}.
+\newblock {Addison-Wesley Professional}, Oct. 2011.
+\newblock ISBN 978-0-321-66963-6.
+\newblock URL \url{http://my.safaribooksonline.com/9780321669636}.
+
+\bibitem[{Digital Curation Centre
+  (DCC)}(nd)]{digital_curation_centre_dcc_dcc_nd}
+{Digital Curation Centre (DCC)}.
+\newblock {{DCC Curation Lifecycle Model}} | {{Digital Curation Centre}}, nd.
+\newblock URL \url{http://www.dcc.ac.uk/resources/curation-lifecycle-model}.
+
+\bibitem[{Earth Data Analysis Center (EDAC)}(2016)]{_gstore_2016}
+{Earth Data Analysis Center (EDAC)}.
+\newblock {{GStore V3 API}}, 2016.
+\newblock URL \url{http://gstore.unm.edu/}.
+
+\bibitem[Gamma et~al.(1995)Gamma, Helm, Johnson, and
+  Vlissides]{gamma_design_1995}
+E.~Gamma, R.~Helm, R.~Johnson, and J.~Vlissides.
+\newblock \emph{Design Patterns: Elements of Reusable Object-Oriented
+  Software}.
+\newblock Addison-Wesley professional computing series; Addison-Wesley
+  professional computing series. {Addison-Wesley}, Reading, Mass., 1995.
+\newblock ISBN 978-0-201-63361-0.
+
+\bibitem[Hohpe and Woolf(2003)]{hohpe_enterprise_2003}
+G.~Hohpe and B.~Woolf.
+\newblock \emph{Enterprise {{Integration Patterns}}: {{Designing}},
+  {{Building}}, and {{Deploying Messaging Solutions}}}.
+\newblock {Addison-Wesley Professional}, Oct. 2003.
+\newblock ISBN 978-0-321-20068-6.
+\newblock URL
+  \url{http://my.safaribooksonline.com/book/technology-management/0321200683}.
+
+\bibitem[{International Organization for Standardization
+  (ISO)}(2012)]{_iso_2012}
+{International Organization for Standardization (ISO)}.
+\newblock {{ISO}} 14721:2012 - {{Space}} data and information transfer systems
+  -- {{Open}} archival information system ({{OAIS}}) -- {{Reference}} model,
+  2012.
+\newblock URL \url{http://www.iso.org/iso/catalogue_detail.htm?csnumber=57284}.
+
+\bibitem[{JISC}(2014)]{_how_2014}
+{JISC}.
+\newblock How {{Jisc}} is helping researchers : {{Jisc}}, June 2014.
+\newblock URL
+  \url{http://www.webarchive.org.uk/wayback/archive/20140615113149/http://www.jisc.ac.uk/whatwedo/campaigns/res3/jischelp.aspx}.
+
+\bibitem[Lasater(2010)]{lasater_design_2010}
+C.~G. Lasater.
+\newblock \emph{Design {{Patterns}}}.
+\newblock {Jones \& Bartlett Learning}, Oct. 2010.
+\newblock ISBN 978-1-4496-1288-7.
+\newblock URL \url{http://my.safaribooksonline.com/9781598220315}.
+
+\bibitem[Lavoie(2014)]{oclc_open_2014}
+B.~Lavoie.
+\newblock The {{Open Archival Information System}} ({{OAIS}}) {{Reference
+  Model}}: {{Introductory Guide}} (2nd {{Edition}}).
+\newblock Technical report, Digital Preservation Coalition, Oct. 2014.
+\newblock URL
+  \url{http://www.dpconline.org/component/docman/doc_download/1359-dpctw14-02}.
+
+\bibitem[Schwinn and Schelp(2005)]{schwinn_design_2005}
+A.~Schwinn and J.~Schelp.
+\newblock Design patterns for data integration.
+\newblock \emph{Journal of Enterprise Information Management}, 18\penalty0
+  (4):\penalty0 471--482, Aug. 2005.
+\newblock ISSN 1741-0398.
+\newblock \doi{10.1108/17410390510609617}.
+\newblock URL
+  \url{http://www.emeraldinsight.com/doi/abs/10.1108/17410390510609617}.
+
+\end{thebibliography}
