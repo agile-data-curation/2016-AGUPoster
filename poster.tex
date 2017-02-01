@@ -4,9 +4,17 @@
 %
 %--A0 beamer slide-------------------------------------------------------------
 \documentclass[final]{beamer}
-\usepackage[orientation=landscape,size=a1,
-            scale=.85         % font scale factor
+
+\usepackage[orientation=landscape,
+            scale=1.05         % font scale factor
            ]{beamerposter}
+\geometry{papersize={60in,36in}}
+\usepackage[numbers,square]{natbib}
+\renewcommand{\bibsection}{\subsubsection*{\bibname } } % eliminates the unwanted bibliography section head
+\renewcommand{\newblock}{}
+\bibliographystyle{abbrvnat}
+
+
 %\setlength{\paperwidth}{33.1in}
 %\setlength{\paperheight}{23.4in}
 \setlength{\paperwidth}{60in}
@@ -15,6 +23,7 @@
 \geometry{
   hmargin=2.5cm, % little modification of margins
 }
+
 
 %
 \usepackage[utf8]{inputenc}
@@ -79,44 +88,16 @@ $body$
 %==End of content==============================================================
 %==============================================================================
 
-%--Acknowledgements-------------------------------------------------------------
-
-$if(acknowledgements)$
-\subsection{Acknowledgements}
-
-$acknowledgements$
-
-$endif$
-%--End of Acknowledgements------------------------------------------------------
+\begin{footnotesize}
 
 
 %--References------------------------------------------------------------------
 
-$if(natbib)$
-$if(biblio-files)$
-$if(biblio-title)$
-$if(book-class)$
-\subsection{References}
-
-\renewcommand\bibname{$biblio-title$}
-$else$
-\subsection{References}
-
-\renewcommand\refname{$biblio-title$}
-$endif$
-$endif$
-\bibliography{$biblio-files$}
-
-$endif$
-$endif$
-
-$if(biblatex)$
-\subsection{References}
-
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
-$endif$
+\bibliography{2016-12_AGUPoster.bib}
 
 %--End of references-----------------------------------------------------------
+
+\end{footnotesize}
 
 \end{multicols}
 

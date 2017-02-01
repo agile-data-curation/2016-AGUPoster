@@ -16,8 +16,6 @@ date: December 15, 2016
 
 abstract: In previous work the authors have argued that there is a need to take a new look at the data management lifecycle. Our core argument is that the data management lifecycle needs to be in essence deconstructed and rebuilt. As part of this process we also argue that much can be gained from applying ideas, concepts, and principles from agile software development methods. To be sure we are not arguing for a rote application of these agile software approaches, however, given various trends related to data and technology, it is imperative to update our thinking about how to approach the data management lifecycle, recognize differing project scales, corresponding variations in structure, and alternative models for solving the problems of scientific data curation. In this paper we will describe what we term agile curation design patterns, borrowing the concept of design patterns from the software world and we will present some initial thoughts on agile curation design patterns as informed by a sample of data curation case studies solicited from participants in agile data curation meeting sessions conducted in 2015-16.
 
-acknowledgements: This work has been partially supported through funding from the National Science Foundation (#IIA-1301346)
-
 conference: American Geophysical Union Annual Meeting. San Francisco, CA. December 12-16, 2016. 
 
 bibliography: ./2016-12_AGUPoster.bib
@@ -42,37 +40,32 @@ Thus far the focus of the project's work has been on developing a framework with
 # Conceptual Model for Agile Data Curation Design Patterns
 
 While this outreach and community engagement work described above is continuing, the work presented here is the starting point for our third goal of adapting the concept of design patterns that had been developed for object oriented software development [@gamma_design_1995], and extended into related domains [@daigneau_service_2011; @lasater_design_2010; @ackerman_patterns-based_2010; @schwinn_design_2005; @hohpe_enterprise_2003], for use in documenting *named* data curation *problems*, *solutions*, and *consequences* that provide *descriptions of generalized data components that are customized to solve a general design problem in a particular context* (adapted from [@gamma_design_1995, section 1.1]). 
- 
-![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_????] for .](placeholder.png)
 
-
-
-
-# 
-
-Vivamus efficitur eros et luctus porttitor. Aenean non urna semper, sollicitudin odio sed, ullamcorper augue. Ut malesuada lorem tortor, a posuere urna tempus at. Suspendisse a lorem odio. Integer non metus eu lacus maximus malesuada vel sit amet purus. Maecenas lacinia nisl in justo pretium cursus sed sed mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. [@gamma_design_1995]
- 
-![Proposed *Agile Data Curation* design pattern elements.](placeholder.png)
-
-
-Ut blandit nisl est, sit amet tempus odio pellentesque vitae. Sed auctor ornare diam, sit amet vehicula massa tristique in. Morbi mollis elit risus, id pretium dui gravida varius. Curabitur quis tristique odio. Vivamus nec erat non turpis faucibus luctus. Nunc a ante vitae massa commodo semper sed vel dui. Nulla accumsan odio et diam vestibulum viverra. Curabitur sed lorem eget velit feugiat cursus at cursus mauris. Nam dapibus nisl non quam maximus gravida. Integer semper cursus urna id ultricies. Cras imperdiet enim quis augue maximus, eu condimentum diam facilisis. Etiam et massa sodales elit sollicitudin auctor quis vitae purus. Maecenas vitae lacus tortor. Vestibulum rhoncus congue ullamcorper. Donec in aliquam nibh, ac suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+The conceptual model that the research team has developed for mapping research data curation functional requirements into design patterns represents a combination of specific research activities that have data-related components (as exemplified in Figure 1) and linkages between those components as envisioned by a model such as the *Open Archival Information System* (OAIS - [@book_reference_2012;@_iso_2012; @oclc_open_2014] - Figure 2). In particular, the research team is currently developing a model for collecting and synthesizing data curation case studies that can be used as exemplars for identifying existing design patterns or developing new ones that are relevant in data curation. 
 
 # Illustration of the Design Pattern Conceptual Model to a Developed Data Management, Discovery and Access Platform - GSToRE
 
+The Geographic Storage, Transformation and Retrieval Engine (GSToRE [@_gstore_2016]) is a data management, discovery and access platform that was developed by the Earth Data Analysis Center as a tiered services oriented architecture (SOA - Figure 3) that was developed to meet the needs of multiple research data discovery, access and interaction models. While the GSToRE platform was not explicitly developed with any specific design patterns, there are a number of design patterns that are roughly represented within its design. The capabilities developed in GSToRE and related research and data managements steps are linked to each other in the diagram provided in Figure 3.   
+   
 
+\vfill\columnbreak
  
-![The Geographic Storage, Transformation and Retrieval Engine (GSToRE) Platform .](placeholder.png)
+![Intersection of Research Lifecycle [@_how_2014] and Data Curation Lifecycle Actions [@digital_curation_centre_dcc_dcc_nd] illustrating high-level research activities that involve data-related functions.](Research-DataLifecycleIntegration.png){width=14in}
 
-
-
-![Mapping of the GSToRE Platform's Capabilities into a Set of Design Patterns.](placeholder.png)
-
-Duis mauris urna, vulputate ac ex vitae, rhoncus lobortis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dignissim purus lacus, ut ultrices eros varius et. Mauris dictum cursus diam, vitae pharetra felis tincidunt pharetra. Suspendisse sem enim, lacinia eget consectetur ut, tempus vel erat. Proin vitae enim sit amet urna elementum rutrum. Nullam consequat eros sit amet est vestibulum rhoncus. Donec ullamcorper tempor finibus. Proin vestibulum nulla ut metus pretium ultricies. Vestibulum diam enim, laoreet eu luctus nec, dignissim sit amet nibh. Aenean et imperdiet turpis, suscipit posuere orci. Phasellus sed velit maximus, facilisis magna vitae, ornare elit. In hac habitasse platea dictumst. Ut non lacus eu tortor varius aliquet. Sed eu urna blandit, porta nibh in, mattis nibh.
+![OAIS Reference Model [@book_reference_2012;@_iso_2012; @oclc_open_2014] as a high level interaction model between functional components of a preservation system](OAIS_functionalModel.png){width=14in}
 
 # Conclusions
 
-Sed auctor nisl elementum leo eleifend, vel tincidunt eros vehicula. Duis consectetur augue erat, a bibendum nisi efficitur ac. Maecenas in justo vitae velit efficitur gravida ac in nisl. Pellentesque sit amet nunc magna. Aliquam mollis vulputate scelerisque. Aenean et scelerisque tellus. Donec et metus ante. Mauris dapibus lectus eget leo pretium, sit amet pharetra urna blandit. Suspendisse scelerisque ante mi, quis imperdiet quam suscipit quis. Mauris felis augue, rutrum a dignissim non, semper eu turpis. Donec tempus neque non dignissim dignissim. Duis semper ante risus. Vivamus id consectetur lectus. In enim odio, iaculis et libero ac, aliquam dapibus mauris. Cras eu velit ornare, tincidunt dolor quis, pellentesque nulla.
+While the research team is in the early stages of the identification of data curation design patterns as part of a larger program of defining an *agile data curation* approach to research data management and preservation, the work presented here represents our first attempt to map an existing data management platform into a set of design patterns that were developed in support of object oriented software development. This mapping provides a frame of reference for engaging with the research data management community in developing a community-based process for documenting design patterns that have proven effective in multiple contexts and implementations.
+
+## Acknowledgements
+
+This work has been partially supported through funding from the National Science Foundation (Award no. IIA-1301346)
+
+
+\vfill\columnbreak
+ 
+![Mapping of the GSToRE Platform's Capabilities into a Set of Design Patterns and corresponding linkages between the OAIS Framework and the Research Lifecycle](Composite-DesignPatternMapping.png){width=11in}
 
 # Bibliography
 &nbsp;
-

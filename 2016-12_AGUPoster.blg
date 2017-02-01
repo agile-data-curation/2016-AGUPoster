@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 2016-12_AGUPoster.aux
+The style file: abbrvnat.bst
+Database file #1: 2016-12_AGUPoster.bib.bib
+You've used 13 entries,
+            2773 wiz_defined-function locations,
+            672 strings with 7624 characters,
+and the built_in function-call counts, 5324 in all, are:
+= -- 458
+> -- 338
+< -- 12
++ -- 118
+- -- 105
+* -- 403
+:= -- 878
+add.period$ -- 54
+call.type$ -- 13
+change.case$ -- 70
+chr.to.int$ -- 13
+cite$ -- 26
+duplicate$ -- 228
+empty$ -- 409
+format.name$ -- 124
+if$ -- 1087
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 11
+newline$ -- 87
+num.names$ -- 52
+pop$ -- 161
+preamble$ -- 1
+purify$ -- 61
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 51
+swap$ -- 20
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 118
+warning$ -- 0
+while$ -- 41
+width$ -- 0
+write$ -- 196
